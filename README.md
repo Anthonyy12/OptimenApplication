@@ -67,19 +67,20 @@ El objetivo principal es el rediseño y la estructura de la página principal de
 
 <!-- Diagrama Gantt -->
 ### Diagrama Gantt.
-![gantt](https://photos.app.goo.gl/KBpK2vVbUn2P1S5v9)
+![gantt](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama Gantt.png)
 
 <!-- Análisis del proyecto -->
 ## Análisis de Solución.
 
 <!-- Requerimientos -->
 ### Requerimientos.
+![Requerimientos](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/RF.png)
 
 ### Historias de Usuario.
 
 <!-- Diagrama de Casos de Uso -->
 ### Diagrama Casos de Uso.
-![casos de uso](https://photos.app.goo.gl/tasCaKFX9B3tPYVs8)
+![casos de uso](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Casos de uso.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
@@ -87,12 +88,24 @@ En esta sección se mostrará distintos esquemas para la solución.
 
 <!-- Modelo Relacional -->
 ### Propuesta del modelo de la base de datos.
+Colección de Eventos
+![ESquemaEventos](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaEventos.png)
+
+Colección de Noticias
+![EsquemaNoticias](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaNoticias.png)
+
+Colección de Mensajes
+![EsquemaMensajes](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaMensajes.png)
 
 <!-- Diagrama de Clases -->
 ### Diagrama de Clases.
 
 <!-- Diagrama de Componentes -->
 ### Diagrama de Componentes.
+
+<!-- Diagrama de Actividades -->
+### Diagrama de Actividades.
+![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama de actividades.png)
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
