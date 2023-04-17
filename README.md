@@ -63,7 +63,7 @@ El objetivo principal es el rediseño y la estructura de la página principal de
 
 <!-- Organigrama -->
 ### Organigrama.
-![organigrama](https://photos.app.goo.gl/NSfARK3sXQqRbadT6)
+![organigrama](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Organigrama.png)
 
 <!-- Diagrama Gantt -->
 ### Diagrama Gantt.
