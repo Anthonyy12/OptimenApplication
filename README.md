@@ -54,11 +54,12 @@
 
 <!-- Descripción -->
 ### Descripción.
-Se rediseñará la página oficial de OPTIMEN | HOME cambiándole la apariencia y estructura para los usuarios que quieren conocer más acerca de la empresa.
+Se rediseñará la página oficial de OPTIMEN | HOME cambiándole la apariencia y estructura para los usuarios que quieren conocer más acerca de la empresa, añadiendo nuevas funciones como 'Inicio de sesión' cuya vista será orientada para los creadores de contenido en donde podran colocar contenido como lo noticias y eventos.
 
 <!-- Objetivos -->
 ### Objetivos.
 #### Objetivos Generales del proyecto.
+El objetivo principal es el rediseño y la estructura de la página principal de la empresa Optimen S. A. De C. V. del cual se añadiran funciones que brindaran rapidéz, eficiencia y optimización, logrando un sitio web capáz de brindar información actualizada sobre la empresa y los avances en otras áreas. A su vez la página tendrá un modulo especial del cuál se encargará de crear noticias y eventos, teniendo la posibilidad de mantener informados a los usuarios sobre las novedades de la empresa.
 
 <!-- Organigrama -->
 ### Organigrama.
@@ -82,6 +83,7 @@ Se rediseñará la página oficial de OPTIMEN | HOME cambiándole la apariencia 
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
+En esta sección se mostrará distintos esquemas para la solución. 
 
 <!-- Modelo Relacional -->
 ### Propuesta del modelo de la base de datos.
