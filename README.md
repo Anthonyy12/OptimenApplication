@@ -62,9 +62,11 @@ Se rediseñará la página oficial de OPTIMEN | HOME cambiándole la apariencia 
 
 <!-- Organigrama -->
 ### Organigrama.
+![organigrama](https://photos.app.goo.gl/NSfARK3sXQqRbadT6)
 
 <!-- Diagrama Gantt -->
 ### Diagrama Gantt.
+![gantt](https://photos.app.goo.gl/KBpK2vVbUn2P1S5v9)
 
 <!-- Análisis del proyecto -->
 ## Análisis de Solución.
@@ -76,6 +78,7 @@ Se rediseñará la página oficial de OPTIMEN | HOME cambiándole la apariencia 
 
 <!-- Diagrama de Casos de Uso -->
 ### Diagrama Casos de Uso.
+![casos de uso](https://photos.app.goo.gl/tasCaKFX9B3tPYVs8)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
