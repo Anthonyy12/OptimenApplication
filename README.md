@@ -67,7 +67,7 @@ El objetivo principal es el rediseño y la estructura de la página principal de
 
 <!-- Diagrama Gantt -->
 ### Diagrama Gantt.
-![gantt](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama Gantt.png)
+![gantt](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama%20Gantt.png)
 
 <!-- Análisis del proyecto -->
 ## Análisis de Solución.
@@ -80,7 +80,7 @@ El objetivo principal es el rediseño y la estructura de la página principal de
 
 <!-- Diagrama de Casos de Uso -->
 ### Diagrama Casos de Uso.
-![casos de uso](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Casos de uso.png)
+![casos de uso](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Casos%20de%20uso.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
@@ -105,7 +105,7 @@ Colección de Mensajes
 
 <!-- Diagrama de Actividades -->
 ### Diagrama de Actividades.
-![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama de actividades.png)
+![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama%20de%20actividades.png)
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
