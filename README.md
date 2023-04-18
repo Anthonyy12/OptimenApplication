@@ -123,3 +123,4 @@ En esta sección se mostrará distintos esquemas para la solución.
 
 <!-- Instalación -->
 ### Instalacion
+[Manual](https://github.com/Anthonyy12/OptimenApplication/blob/main/Manual%20de%20usuario%20e%20instalaci%C3%B3n.pdf)
