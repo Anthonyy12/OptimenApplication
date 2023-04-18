@@ -97,12 +97,6 @@ En esta sección se mostrará distintos esquemas para la solución.
 #### Colección de Mensajes
 ![EsquemaMensajes](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaMensajes.png)
 
-<!-- Diagrama de Clases -->
-### Diagrama de Clases.
-
-<!-- Diagrama de Componentes -->
-### Diagrama de Componentes.
-
 <!-- Diagrama de Actividades -->
 ### Diagrama de Actividades.
 ![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama%20de%20actividades.png)
@@ -112,6 +106,20 @@ En esta sección se mostrará distintos esquemas para la solución.
 
 <!-- Casos de prueba -->
 ### Casos de prueba.
+#### Caso de Prueba - OA-1-CP01PN
+![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp1.png)
+
+#### Caso de Prueba - OA-2-CP02PE
+![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp2.png)
+
+#### Caso de Prueba - OA-3-CP03MN
+![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp3.png)
+
+#### Caso de Prueba - OA-4-CP04ME
+![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp4.png)
+
+#### Caso de Prueba - OA-5-CP05VUV
+![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp5.png)
 
 <!-- Instalación -->
 ### Instalacion
