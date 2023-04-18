@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabla de Noticias</title>
+
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th class="blue">Titulo</th>
+				<th class="blue">Fecha</th>
+				<th class="blue">Lugar</th>
+				<th class="blue">Descripcion</th>
+                <th class="blue">Editar</th>
+                <th class="blue">Eliminar</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr  *ngFor="let Evento of listarEventos">
+				<td>{{ Evento.titulo }}</td>
+				<td>{{ Evento.fecha }}</td>
+				<td>{{ Evento.lugar }}</td>
+				<td>{{ Evento.descripcion }}</td>
+				<td><i [routerLink]="['/editar-eventos',Evento._id]" routerLinkActive="router-link-active"  >Editar</i></td>
+                <td><a (click)="eliminar(Evento._id) ">Borrar</a></td>
+			</tr>
+		</tbody>
+	</table>
+	<button [routerLink]="['/eventos']" routerLinkActive="router-link-active"  class="add-news">AGREGAR EVENTO</button>
+</body>
+</html>
+

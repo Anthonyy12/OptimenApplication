@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabla de Noticias</title>
+
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th class="blue">Titulo</th>
+				<th class="blue">Autor</th>
+				<th class="blue">Informcion</th>
+				<th class="blue">Imagen</th>
+                <th class="blue">Editar</th>
+                <th class="blue">Eliminar</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let Noticia of listarNoticias">
+				<td>{{ Noticia.titulo }}</td>
+				<td>{{ Noticia.autor }}</td>
+				<td>{{ Noticia.informacion }}</td>
+				<td>{{ Noticia.message }}</td>
+                <td><i [routerLink]="['/editar-noticias',Noticia._id]" routerLinkActive="router-link-active"  >Editar</i></td>
+                <td><a (click)="eliminar(Noticia._id) ">Borrar</a></td>
+			</tr>
+		</tbody>
+	</table>
+	<button [routerLink]="['/noticias']" routerLinkActive="router-link-active"  class="add-news">AGREGAR NOTICIA</button>
+</body>
+</html>

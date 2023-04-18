@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bb">
+    <div class="formulario">
+      <h2>{{titulo}}</h2>
+      <form [formGroup]="NoticiasForm" (ngSubmit)="GuardarNoticias()">
+        <div class="campo">
+          <label for="nombre">Titulo:</label>
+          <input type="text" id="nombre" name="nombre" required formControlName="titulo" />
+          <div class="ad"  *ngIf="NoticiasForm.get('titulo')?.hasError('required') && NoticiasForm.get('titulo')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="apellido">Autor:</label>
+          <input type="text" id="apellido" name="apellido" required formControlName="autor" />
+          <div class="ad"  *ngIf="NoticiasForm.get('autor')?.hasError('required') && NoticiasForm.get('autor')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="email">Descripcion:</label>
+          <input type="text" id="email" name="email" required formControlName="descripcion" />
+          <div class="ad"  *ngIf="NoticiasForm.get('descripcion')?.hasError('required') && NoticiasForm.get('descripcion')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="mensaje">Adicional:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" formControlName="adicional" required></textarea>
+          <div class="ad"  *ngIf="NoticiasForm.get('adicional')?.hasError('required') && NoticiasForm.get('adicional')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="boton">
+          <button type="submit"  [disabled]="NoticiasForm.invalid" >Publicar</button>
+        </div>
+        <div class="boton1">
+          <button [routerLink]="['/listar-noticias']" routerLinkActive="router-link-active" type="submit">Volver Atras</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

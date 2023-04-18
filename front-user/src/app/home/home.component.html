@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Welcome to
+        Optimen</h1>
+      <p>Unique team of Resources Management and Optimization Experts and passionate Software Developers.</p>
+    </div>
+  </div>
+
+ <div class="title"><strong><h1>Eventos Actuales por Parte de Optimen</h1></strong></div><br>
+  <div class="bloque-evento"  *ngFor="let Evento of listarEventos"   >
+    <h2 class="titulo-evento">{{ Evento.titulo}}</h2>
+    <div class="detalles-evento">
+      <p class="fecha">Fecha: {{ Evento.fecha }}</p>
+      <p class="lugar">Ubicacion: {{ Evento.lugar }}</p>
+      <p class="descripcion">{{ Evento.descripcion }}</p>
+    </div>
+  </div>
+  
+  <section>
+    <div class="center">
+      <div class="left">
+        <img src="../../assets/card1.jpg" alt="tu-imagen">
+      </div>
+      <div class="right">
+        <h2  class="pp">A World Class Global Enterprise</h2>
+        <p class="pp">Mexican Company with the following experience since 2006:
+          Resource Optimization
+          Consultancy and Configuration Support Services
+          IT Software Solutions Development</p>
+      </div>
+    </div>
+    
+  </section>
+ 
+ 
+  <section>
+    <div class="center">
+      <div class="left">
+        <img src="../../assets/card2.png" alt="tu-imagen">
+      </div>
+      <div class="right">
+        <h2  class="pp">Our Purpose</h2>
+        <p class="pp">Streamline the world mobility</p>
+      </div>
+    </div>
+    
+  </section>
+
+  <div class="contenedor">
+    <div class="fila">
+      <div class="item">
+        <div class="imagen"><img src="../../assets/airline.png"></div>
+        <h2>Airline Operations Expertise</h2>
+       
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/analisis.jpg"></div>
+        <h2>Software Architecture</h2>
+        
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/arquitecture.jpeg"></div>
+        <h2>Analytics / Analysis Expertiset</h2>
+      
+      </div>
+    </div>
+    <div class="fila">
+      <div class="item">
+        <div class="imagen"><img src="../../assets/service-business-development.jpg"></div>
+        <h2>Consulting & Business Development</h2>
+       
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/R&B.jpg"></div>
+        <h2> New Products and R&D
+        </h2>
+       
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/tec.jpg"></div>
+        <h2> High Technology Expertise</h2>
+       
+      </div>
+    </div>
+    <div class="fila">
+      <div class="item">
+        <div class="imagen"><img src="../../assets/Customertrust.jpg"></div>
+        <h2>Customer Trust</h2>
+        
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/system.jpg"></div>
+        <h2> Systems Implementation & Support
+        </h2>
+      
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/sof.jpeg"></div>
+        <h2> Software Development</h2>
+      
+      </div>
+    </div>
+    <div class="fila">
+      <div class="item">
+        <div class="imagen"><img src="../../assets/resources.jpg"></div>
+        <h2>Resource Optimization</h2>
+       
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/Resource-Management.jpeg"></div>
+        <h2> Resource Management
+        </h2>
+       
+      </div>
+      <div class="item">
+        <div class="imagen"><img src="../../assets/modeling.png"></div>
+        <h2>Operations Modeling</h2>
+       
+      </div>
+    </div>
+  </div>
+ 
+   <h2>Awards and Certifications</h2>
+  <div class="image-container">
+    <img src="../../assets/esr.png" alt="Imagen 1">
+    <img src="../../assets/marca-gto-logo.png" alt="Imagen 2">
+    <img src="../../assets/boeing_logo.png" alt="Imagen 3">
+    <img src="../../assets/iso-27001.png" alt="Imagen 4">
+  </div>
+  
+
+</body>
+</html>

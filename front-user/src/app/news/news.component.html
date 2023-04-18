@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Noticia - Título de la Noticia</title>
+  </head>
+  <body class="bb">
+    <div class="noticia" *ngFor="let Noticia of listarNoticias">
+      <header>
+        <h1 class="titulo">{{ Noticia.titulo }}</h1>
+        <p  class="autor">Por: <span>{{ Noticia.autor }}</span></p>
+      </header>
+      <main>
+        <p  class="descripcion">
+          {{ Noticia.informacion }}
+        </p>
+      </main>
+      <footer>
+        <button class="like">Like</button>
+        <button class="comentar">Comentar</button>
+        <div class="comentario">
+          <input type="text" placeholder="Escribe tu comentario aquí">
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+

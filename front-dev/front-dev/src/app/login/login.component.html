@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form [formGroup]="loginForm" (ngSubmit)="LOGIN()">
+<label>email</label>
+<input type="text"
+id="email"
+name="email"
+formControlName="email"
+>
+<br>
+<label>contraseña</label>
+<input type="text"
+id="pass"
+name="pass"
+formControlName="pass">
+        
+    </form>
+<button type="submit" >Login</button>
+</body>
+</html>

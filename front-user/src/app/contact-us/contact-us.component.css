@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+font-family: Montserrat, sans-serif;
+  }
+  
+  .container {
+	background-image: url('Airport_edited.jpg');
+	background-size: cover;
+	background-position: center;
+	width: calc(100% + 10px);
+	height: 100vh;
+	display: flex;
+	
+  }
+  
+  .left-section {
+	width: 50%;
+	padding: 50px 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+  }
+  
+  .left-section h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+  }
+  
+  .left-section p {
+	font-size: 18px;
+	margin: 10px 0;
+  }
+  
+  .social-links {
+	margin-top: 20px;
+  }
+  
+  .social-links a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+  }
+  .ad{
+	color: red;
+  }
+  .fb-link {
+	background-color: #3b5998;
+  }
+  
+  .insta-link {
+	background-color: #e4405f;
+  }
+  
+  .linkedin-link {
+	background-color: #0077b5;
+  }
+  
+  .right-section {
+	width: 50%;
+	padding: 50px 20px;
+	text-align: center;
+	background-color: rgba(244, 239, 239, 0.8);
+	backdrop-filter: blur(10px) brightness(60%);
+  }
+  
+  .right-section h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	text-align: center;
+  }
+  
+  label {
+	font-size: 18px;
+	margin-top: 10px;
+	text-align: center;
+  }
+  
+  input,
+  textarea {
+	align-items: center;
+	width: 50%;
+	padding: 10px;
+	font-size: 16px;
+	border: 10px;
+	border-radius: 5px;
+	margin-top: 5px;
+  }
+  
+  textarea {
+	height: 150px;
+	resize: none;
+  }
+  
+  button {
+	background-color: #2196f3;
+	color: #fff;
+	font-size: 16px
+  }
+  .bb{
+
+font-family: Montserrat, sans-serif;
+}

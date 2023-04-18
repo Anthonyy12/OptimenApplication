@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class=bb>
+    
+<div class="title">Centro de Mensajes</div>
+
+<div class="tabla">
+     <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo</th>
+        <th>Asunto</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr *ngFor="let mensaje of listarcomentarios">
+        <td>{{mensaje.name}}</td>
+        <td>{{mensaje.lastname}}</td>
+          <td>{{mensaje.email}}</td>
+          <td>{{mensaje.message}}</td>
+    </tr>
+   </tbody>
+</div>
+  
+</body>
+</html>

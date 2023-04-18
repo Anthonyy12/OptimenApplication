@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body class="bb">
+   <div class="formulario">
+      <h2>{{titulo}}</h2>
+      <form [formGroup]="EventosForm" (ngSubmit)="GuardarEventos()">
+        <div class="campo">
+          <label for="nombre">Titulo:</label>
+          <input type="text" id="nombre" name="nombre" required
+          formControlName="titulo"
+          >
+          <div class="ad"  *ngIf="EventosForm.get('titulo')?.hasError('required') && EventosForm.get('titulo')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="apellido">Fecha:</label>
+          <input type="date" id="apellido" name="apellido" required
+          formControlName="fecha">
+          <div class="ad"  *ngIf="EventosForm.get('fecha')?.hasError('required') && EventosForm.get('fecha')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="email">Lugar:</label>
+          <input type="text" id="email" name="email" required
+          formControlName="lugar"
+          >
+          <div class="ad"  *ngIf="EventosForm.get('lugar')?.hasError('required') && EventosForm.get('lugar')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="mensaje">Descripcion:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required
+          formControlName="descripcion"
+          ></textarea>
+          <div class="ad"  *ngIf="EventosForm.get('descripcion')?.hasError('required') && EventosForm.get('descripcion')?.touched">
+        
+            <span><strong>Campo Obligatorio </strong></span>
+          </div>
+        </div>
+        <div class="boton">
+          <button [disabled]="EventosForm.invalid"  type="submit">Publicar</button>
+        </div>
+        <div class="boton1">
+          <button [routerLink]="['/listar-eventos']" routerLinkActive="router-link-active" type="submit">Volver Atras</button>
+        </div>
+      </form>
+    </div>
+    
+    
+</body>
+</html>
+

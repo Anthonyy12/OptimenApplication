@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="bb">
+    <div>
+      <div class="title">Resumen de Noticias y Eventos</div>
+    </div>
+    <div class="container">
+      <div class="izq">
+        <div class="title">Noticias</div>
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Informacion</th>    
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let Noticia of listarNoticias">
+            <td>{{ Noticia.titulo }}</td>
+            <td>{{ Noticia.autor }}</td>
+            <td>{{ Noticia.informacion }}</td>
+            <td>{{ Noticia.message }}</td>
+          </tr>
+        </tbody>
+      </div>
+      <div class="der">
+        <div class="title">Eventos</div>
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Fecha</th>
+            <th>Lugar</th>
+            <th>Descripcion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let Evento of listarEventos">
+            <td>{{ Evento.titulo }}</td>
+            <td>{{ Evento.fecha }}</td>
+            <td>{{ Evento.lugar }}</td>
+            <td>{{ Evento.descripcion }}</td>
+          </tr>
+        </tbody>
+      </div>
+    </div>
+  </body>
+</html>

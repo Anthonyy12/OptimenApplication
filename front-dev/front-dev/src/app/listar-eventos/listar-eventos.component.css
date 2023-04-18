@@ -1,0 +1,39 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th.blue {
+	background-color: #007bff;
+	color: #fff;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+.add-news {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.add-news:hover {
+	background-color: #0062cc;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
