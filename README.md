@@ -26,13 +26,11 @@
       <ul>
         <li><a href="#modelo-relacional">Modelo Relacional</a></li>
         <li><a href="#diagrama-de-clases">Diagrama de Clases</a></li>
-        <li><a href="#diagrama-de-componentes">Diagrama de Componentes</a></li>
       </ul>
     </li>    
     <li>
       <a href="#implementación">Implementación</a>
       <ul>
-        <li><a href="#arquitectura">Arquitectura</a></li>
         <li><a href="#código-fuente">Código Fuente</a></li>
       </ul>
     </li>      
@@ -42,8 +40,13 @@
         <li><a href="#casos-de-prueba">Casos de prueba</a></li>
         <li><a href="#ejecución">Ejecución</a></li>
       </ul>
-    </li>       
-    <li><a href="#guias">Guias</a></li>
+    </li>
+    <li>
+      <a href="#pruebas">Pruebas</a>
+      <ul>
+        <li><a href="#instalacion">Instalación</a></li>
+      </ul>
+     </li>
     <li><a href="#participantes">Participantes</a></li>
   </ol>
 </details>
@@ -125,6 +128,16 @@ En esta sección se mostrará distintos esquemas para la solución.
 #### Caso de Prueba - OA-5-CP05VUV
 ![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp5.png)
 
+<!-- Implementación del proyecto -->
+## Implementación.
+
+<!-- Código Fuente -->
+### Código Fuente.
+* [Front-End](https://github.com/ArmandoxxXD/front-end-integradora.git)
+* [Back-End](https://github.com/ArmandoxxXD/back-end-integradora.git)
+
 <!-- Instalación -->
 ### Instalacion
 [Manual](https://github.com/Anthonyy12/OptimenApplication/blob/main/Manual%20de%20usuario%20e%20instalaci%C3%B3n.pdf)
+
+
