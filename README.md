@@ -42,7 +42,6 @@
       </ul>
     </li>
     <li>
-      <a href="#pruebas">Pruebas</a>
       <ul>
         <li><a href="#instalacion">Instalación</a></li>
       </ul>
@@ -89,6 +88,8 @@ El objetivo principal es el rediseño y la estructura de la página principal de
 ## Diseño de la Solución.
 En esta sección se mostrará distintos esquemas para la solución. 
 
+
+
 <!-- Modelo Relacional -->
 ### Propuesta del modelo de la base de datos.
 #### Colección de Eventos
@@ -108,9 +109,10 @@ En esta sección se mostrará distintos esquemas para la solución.
 ### Diagrama de Clases.
 ![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/diaClases.png)
 
+
+
 <!-- Pruebas proyecto -->
 ## Pruebas.
-
 <!-- Casos de prueba -->
 ### Casos de prueba.
 #### Caso de Prueba - OA-1-CP01PN
@@ -128,13 +130,17 @@ En esta sección se mostrará distintos esquemas para la solución.
 #### Caso de Prueba - OA-5-CP05VUV
 ![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp5.png)
 
+<!-- Casos de prueba -->
+### Ejecución.
+
+
 <!-- Implementación del proyecto -->
 ## Implementación.
-
 <!-- Código Fuente -->
 ### Código Fuente.
-* [Front-End](https://github.com/ArmandoxxXD/front-end-integradora.git)
-* [Back-End](https://github.com/ArmandoxxXD/back-end-integradora.git)
+* [Front-End User]()
+* [Front-End Dev]()
+* [Back-End]()
 
 <!-- Instalación -->
 ### Instalacion
