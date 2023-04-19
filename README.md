@@ -101,6 +101,10 @@ En esta sección se mostrará distintos esquemas para la solución.
 ### Diagrama de Actividades.
 ![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/Diagrama%20de%20actividades.png)
 
+<!-- Diagrama de Clases -->
+### Diagrama de Clases.
+![Actividades](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/diaClases.png)
+
 <!-- Pruebas proyecto -->
 ## Pruebas.
 
