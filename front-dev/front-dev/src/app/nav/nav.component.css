@@ -20,7 +20,7 @@
   /* Estilo para las opciones de navegación */
   .nav-options {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   
   .nav-option {

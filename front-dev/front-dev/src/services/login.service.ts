@@ -14,4 +14,17 @@ export class LoginService {
   Login(mensaje: Login): Observable<any> {
     return this.http.post(this.url, mensaje);
   }
+
+  private isLoggedIn = false;
+
+  setIsLoggedIn(value: boolean) {
+    this.isLoggedIn = value;
+  }
+
+  getIsLoggedIn() {
+    return this.isLoggedIn;
+  }
+
+  
+  
 }

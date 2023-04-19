@@ -12,45 +12,52 @@ import { LoginService } from 'src/services/login.service';
 export class LoginComponent implements OnInit {
 
 
-  loginForm:FormGroup;
-  
-  constructor(
-    private Log: FormBuilder,
+  loginForm = this.formBuilder.group({
+    email: ['', [Validators.required, Validators.email]],
+    password: ['', Validators.required]
+  });
+  constructor(private formBuilder: FormBuilder,
     private router: Router,
-    private LoginService: LoginService,
-    private aRouter: ActivatedRoute
+              private HacerloginService:LoginService
+    ) {}
 
-  ){
-    this.loginForm =this.Log.group({
-      email: ['',Validators.required],
-      pass:  ['',Validators.required],
-    });
 
-  }
   ngOnInit(): void {
   
   }
-  LOGIN(){
-const LOG:Login={
-  email:this.loginForm.get('email')?.value,
-  password:this.loginForm.get('pass')?.value,
-}
-console.log(LOG);
-
-  }
-  GuardarNoticias() {
-    const LOGIN: Login = {
-      email: this.loginForm.get('email')?.value,
-      password: this.loginForm.get('pass')?.value,
-    
-    };
-  
-      console.log(LOGIN);
-      this.LoginService.Login(LOGIN).subscribe((data) => {
-        console.log(data);
-        this.router.navigate(['/listar-noticias']);
-      });
+  onSubmit() {
+    if (this.loginForm.valid && this.loginForm.value.email?.endsWith('@optimen.com')) {
+    this.HacerLogin();
    
+    } else {
+      // mostrar mensaje de error
+      this.loginForm.controls.email.setErrors({ invalidEmail: true });
+    }
   }
+
+  
+  HacerLogin() {
+    const email = this.loginForm.get('email')?.value;
+    const password = this.loginForm.get('password')?.value;
+  
+    if (email && password) {
+      const LOGIN: Login = {
+        email: email,
+        password: password,
+     
+      };
+  
+      this.HacerloginService.Login(LOGIN).subscribe(respuesta => {
+        // hacer algo con la respuesta del servicio
+        console.log(respuesta);
+        console.log(LOGIN);
+      this.HacerloginService.setIsLoggedIn(true);  
+        this.router.navigate(['/nav']);
+      });
+    }
+  }
+  
+
+
 
 }

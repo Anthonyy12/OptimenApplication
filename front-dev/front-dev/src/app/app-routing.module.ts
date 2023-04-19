@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ListarEventosComponent } from './listar-eventos/listar-eventos.component';
 import { ListarNoticiasComponent } from './listar-noticias/listar-noticias.component';
 import { LoginComponent } from './login/login.component';
+import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
 
@@ -41,6 +42,10 @@ const routes: Routes = [
 {
   path:'noticias',
   component:PushNoticiasComponent
+},
+{
+  path:'nav',
+  component:NavComponent
 },
 {
   path:'home',
