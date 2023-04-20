@@ -92,13 +92,13 @@ En esta sección se mostrará distintos esquemas para la solución.
 
 <!-- Modelo Relacional -->
 ### Propuesta del modelo de la base de datos.
-#### Colección de Eventos
+#### Esquema de Eventos
 ![ESquemaEventos](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaEventos.png)
 
-#### Colección de Noticias
+#### Esquema de Noticias
 ![EsquemaNoticias](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaNoticias.png)
 
-#### Colección de Mensajes
+#### Esquema de Mensajes
 ![EsquemaMensajes](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/EsquemaMensajes.png)
 
 <!-- Diagrama de Actividades -->
