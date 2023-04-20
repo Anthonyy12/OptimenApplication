@@ -151,20 +151,20 @@ En esta sección se mostrará distintos esquemas para la solución.
 ![Caja1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn11.png)
 
 #### OA-2-CP02PE
-![Caja2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/22.png)
-![Caja2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/222.png)
+![Caja2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn22.png)
+![Caja2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn222.png)
 
 #### OA-3-CP03MN
-![Caja3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/3.png)
-![Caja3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/33.png)
+![Caja3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn3.png)
+![Caja3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn33.png)
 
 #### OA-4-CP04ME
-![Caja4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/4.png)
+![Caja4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn4.png)
 ![Caja4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/44.png)
 
 #### OA-5-CP05PVCU
-![Caja5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/5.png)
-![Caja5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/55.png)
+![Caja5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn5.png)
+![Caja5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cn55.png)
 
 <!-- Implementación del proyecto -->
 ## Implementación.
