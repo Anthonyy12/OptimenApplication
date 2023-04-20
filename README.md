@@ -116,16 +116,26 @@ En esta sección se mostrará distintos esquemas para la solución.
 <!-- Casos de prueba -->
 ### Casos de prueba.
 #### Caso de Prueba - OA-1-CP01PN
-![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppn.png)
+![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppn1.png)
+![CP1-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppn2.png)
 
 #### Caso de Prueba - OA-2-CP02PE
-![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppe.png)
+![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppe1.png)
+![CP2-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppe2.png)
 
 #### Caso de Prueba - OA-3-CP03MN
-![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpmn.png)
+![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpmn1.png)
+![CP3-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpmn2.png)
+![CP3-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpmn3.png)
 
 #### Caso de Prueba - OA-4-CP04ME
-![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpme.png)
+![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpme1.png)
+![CP4-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpme2.png)
+![CP4-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpme3.png)
 
 #### Caso de Prueba - OA-5-CP05PVCU
 ![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
