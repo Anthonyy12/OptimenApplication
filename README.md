@@ -138,7 +138,10 @@ En esta sección se mostrará distintos esquemas para la solución.
 ![CP4-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cpme3.png)
 
 #### Caso de Prueba - OA-5-CP05PVCU
-![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppvcu.png)
+![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppvcu1.png)
+![CP5-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppvcu2.png)
+![CP5-1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cppvcu3.png)
 
 <!-- Casos de prueba -->
 ### Ejecución.
