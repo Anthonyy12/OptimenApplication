@@ -116,23 +116,34 @@ En esta sección se mostrará distintos esquemas para la solución.
 <!-- Casos de prueba -->
 ### Casos de prueba.
 #### Caso de Prueba - OA-1-CP01PN
-![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp1.png)
+![CP1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
 #### Caso de Prueba - OA-2-CP02PE
-![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp2.png)
+![CP2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
 #### Caso de Prueba - OA-3-CP03MN
-![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp3.png)
+![CP3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
 #### Caso de Prueba - OA-4-CP04ME
-![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp4.png)
+![CP4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
-#### Caso de Prueba - OA-5-CP05VUV
-![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/cp5.png)
+#### Caso de Prueba - OA-5-CP05PVCU
+![CP5](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
 <!-- Casos de prueba -->
 ### Ejecución.
+#### Pruebas de caja negra.
+#### OA-1-CP01PN
+![Caja1](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
+#### OA-2-CP02PE
+![Caja2](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+
+#### OA-3-CP03MN
+![Caja3](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
+
+#### OA-4-CP04ME
+![Caja4](https://raw.githubusercontent.com/Anthonyy12/OptimenApplication/main/assets/.png)
 
 <!-- Implementación del proyecto -->
 ## Implementación.
